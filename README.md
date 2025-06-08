@@ -1,4 +1,4 @@
-# 制作GPX OVERLAY MAP 使用GPX生成路网
+# 制作GPX OVERLAY MAP 通过GPX文件生成路网
 Simple scripts to convert GPX files to mapsforge for use in Locus Map and other Apps
 
 ## 使用方法
@@ -16,7 +16,7 @@ mv mapsforge-map-writer-0.25.0-jar-with-dependencies.jar ~/.openstreetmap/osmosi
 #### 3. 可通过修改`GPX2OSM.awk`文件中的tag，修改或添加更多tag，适配不同的风格文件，此处只提供一个v3版本的风格文件，来自大海路网
 
 ### 生成map
-解压本压缩包，进入文件夹，比如放在文档目录。将需要合并的gpx文件放到gpx_files下面，单个文件也可以，修改`batch_gpx_to_map.sh`中的`BBOX`和`style`选项，分别控制地图的范围(覆盖整个路网的区域就可以，不需要太大)和mapsforge版本(默认v3版本)。运行如下命令，生成合并后的merge.pbf.map文件，可自定义修改为自己想取的名字。
+解压本压缩包，进入文件夹，比如放在文档目录。新建gpx_files目录，将需要合并的gpx文件放到gpx_files下面，单个文件也可以，修改`batch_gpx_to_map.sh`中的`BBOX`和`style`选项，分别控制地图的范围(覆盖整个路网的区域就可以，不需要太大)和mapsforge版本(默认v3版本)。运行如下命令，生成合并后的merge.pbf.map文件，可自定义修改为自己想取的名字。
 
 ```bash
 cd /mnt/c/User/XXXXXX/Documents/gpx_to_map/
