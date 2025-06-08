@@ -1,4 +1,4 @@
-# gpx_to_mapsforge 制作GPX OVERLAY MAP 使用GPX生成路网
+# 制作GPX OVERLAY MAP 使用GPX生成路网
 Simple scripts to convert GPX files to mapsforge for use in Locus Map and other Apps
 
 ## 使用方法
