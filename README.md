@@ -36,4 +36,5 @@ mv merge.pbf.map xxx.map
 ```
 ### locus map or other App
 拷贝生成的`xxx.map`文件到`Locus Map`的`mapsVector`文件夹，将`style_file/v3`下的风格压缩包拷贝到`mapsVector/_themes`文件夹，重新启动`Locus Map`，选择拷贝的离线地图，然后风格文件选择拷贝的风格压缩包，选中风格选项里自定义轨迹中的一个颜色选项即可。
+
 Copy generated`xxx.map` to `Locus Map`-`mapsVector`, copy `style_file/v3` style file to `mapsVector/_themes`, restart`Locus Map`，choose the merged map and choose the v3 style file, check one custom track option.
